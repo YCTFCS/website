@@ -1,1 +1,1 @@
-yctfcs.github.io
+yctfcs
