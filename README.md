@@ -1,1 +1,1 @@
-https://www.yahwehcharitabletrust.org.in/index.html
+https://www.yahwehcharitabletrust.org.in/
