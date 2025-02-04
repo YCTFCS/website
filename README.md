@@ -1,1 +1,1 @@
-/https://github.com/YCTFCS/website
+YCTFCS/website
