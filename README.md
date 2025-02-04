@@ -5,25 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yahweh charitable</title>
-    <style>
-        .card{
-            background-color: #040a15;
-        }
-        .flips-items{
-            transform: translateX(493.5px) !important;
-        }
-        .widthforgallery{
-            transform: translateX(190.5px) !important;
-        }   
-        .ourmissin{
-            color: #B1B0B0;
-            font-size: 54px;
-            text-align: center;
-            margin: 25px 0px;
-            font-weight: 600;
-        }
-    </style>
-</head>
+    </head>
 <body>
     <section class="section1">
     <div class="nevbar" id="nevbar">
@@ -41,9 +23,6 @@
                 <li><a href="#Contact"><button  class="button-87">Contact</button></a></li>
                 <li> <a id="about" href="#aboutus"><button  class="button-87">About us</button></a></li>
             </ul>
-        </div>
-        <div class="menuicon">
-            <i id="menuicon" onclick="togglemenu()" class="fas fa-chevron-circle-down"> <span>MENU</span></i>
         </div>
     </div>
 
@@ -249,45 +228,5 @@
         </div>
     </footer>
 </section>
-    <!-- scripts  -->
-    <script>
-         $(document).ready(function(){
-                $('.rotation').click(function(){
-                    if($(this).hasClass('spin')){
-                        $('.rotation').removeClass('spin'); }
-                        else{ $('.rotation').removeClass('spin');
-                        $(this).addClass('spin');
-                    }
-                })
-            })
-        // drop down menu script
-        var menu = document.getElementById("menu");
-        menu.style.maxHeight = "0px";
-        function togglemenu() {
-            if (menu.style.maxHeight == "0px") {
-                menu.style.maxHeight = "390px";
-            }
-            else {
-                menu.style.maxHeight = "0px";
-            }
-        }
-            const inputs = document.querySelectorAll(".input");
-            function focusFunc() {
-            let parent = this.parentNode;
-            parent.classList.add("focus");
-            }
-
-            function blurFunc() {
-            let parent = this.parentNode;
-            if (this.value == "") {
-                parent.classList.remove("focus");
-            }
-            }
-
-            inputs.forEach((input) => {
-            input.addEventListener("focus", focusFunc);
-            input.addEventListener("blur", blurFunc);
-            });
-        </script>
-</body>
+    </body>
 </html>
